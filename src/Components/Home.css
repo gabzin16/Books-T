@@ -142,3 +142,50 @@ img {
   opacity: 1;
 }
 
+  /* BANNER 1 */
+  .content {
+    width: 100%;
+    height: calc(90vh - 200px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient(rgba(26, 26, 26, 0.3), rgba(26, 26, 28, 0.3)), url('/public/images/fundo\ banner\ assim\ que\ comeca.jpg');
+    background-size: cover;
+    align-items: center;
+    /* margin-top: 5px; */
+  }
+
+  .banner1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+  }
+
+  .text-banner {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(82, 176, 187, 0.4); /* O último valor (0.5) define a transparência */
+    width: 600px;
+    height: 280px;
+    border-radius: 20px;
+    /* padding: 20px; */
+    margin: 120px;
+    font-weight: normal;
+  }
+  
+  .banner1 img {
+    width: 250px;
+    height: 380px;
+    margin-right: 100px; /* Adicionando margem à direita para separar a imagem do texto */
+    margin-left: 40px;
+    padding: 100px;
+  }
+
+  .text-CH {
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    padding: 50px;
+    /* margin-right: 90px; */
+  }
