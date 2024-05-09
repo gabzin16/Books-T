@@ -168,7 +168,7 @@ img {
   /* BANNER 1 */
   .content {
     margin-top: 50%;
-    width: 100%;
+    /* width: 100%; */
     /* height: calc(90vh - 200px); */
     display: flex;
     flex-direction: column;
