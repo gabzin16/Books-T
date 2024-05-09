@@ -30,7 +30,10 @@ function App() {
             {/* Rota para a página "Contato" */}
             {/* <Route path="/login" element={<Login/>} /> */}
 
+
+
         </Routes>
+        
       </Router>
     </div>
   );

@@ -1,5 +1,6 @@
 import Css from "./Home.css";
 
+
 // Componente funcional Home
 function Home() {
   return (
