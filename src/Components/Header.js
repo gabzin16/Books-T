@@ -8,7 +8,7 @@ const Header = (props) => {
       <Logo>
         <a href="/">
           {/* Imagem do Logo */}
-          <img src="/images/Tree.png" alt="" />
+          <img src="/images/logo riverstory .png" alt="" />
         </a>
       </Logo>
 
@@ -19,15 +19,18 @@ const Header = (props) => {
           <span>Home</span>
         </a>
         <a href="/about">
-          <span>About Us</span>
+          <span>Meus Livros</span>
         </a>
-        {/* <a href="/contact">
-          <span>Contact Us</span>
-        </a> */}
+        <a href="/contact">
+          <span>Lendo</span>
+        </a>
+        <a href="/generos">
+          <span>Gêneros</span>
+        </a>
       </NavMenu>
 
       {/* Wrapper adicional */}
-      <Wrap>Hi</Wrap>
+      {/* <Wrap>Hi</Wrap> */}
      
       {/* Botão de Login */}
       <Login href="/contact">Login</Login>
@@ -41,7 +44,7 @@ const Header = (props) => {
 // Container principal do Header
 const Container = styled.div`
   position: fixed;
-  background-color: #000;
+  background-color: #29BAC1;
   top: 0;
   left: 0;
   right: 0;
@@ -56,7 +59,7 @@ const Container = styled.div`
 
 // Estilo do Logo
 const Logo = styled.a`
-  width: 80px;
+  width: 250px;
   align-items: center;
   a {
     cursor: auto;
@@ -135,7 +138,7 @@ const NavMenu = styled.div`
 // Estilo do Botão de Login
 const Login = styled.a`
   color: #ffffff;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: #28BAC2;
   padding: 10px 16px;
   margin-right: 45px;
   text-transform: uppercase;
