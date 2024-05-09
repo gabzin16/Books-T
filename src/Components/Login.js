@@ -13,6 +13,7 @@ function Login() {
   };
 
   return (
+  
     <div className={`container ${isSignUpActive ? 'right-panel-active' : ''}`} id="container">
       <div className="form-container sign-up-container">
         <form action="#">
@@ -61,6 +62,7 @@ function Login() {
         </div>
       </div>
     </div>
+
   );
 }
 

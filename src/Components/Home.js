@@ -4,8 +4,7 @@ import Css from "./Home.css";
 function Home() {
   return (
     <div>
-      {/* Banner */}
-      <img src="assets/banners/banner-assim-que-acaba-pequeno.png" alt="banner1" />
+
 
       {/* Sessão Romance */}
       <h2 className="section-title">Romance</h2>

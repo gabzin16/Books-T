@@ -8,6 +8,7 @@
   margin-top: 180px;
 }
 
+
 img {
   width: 100%;
   height: auto; /* Alterado para corrigir a distorção da imagem da logo */
@@ -140,3 +141,4 @@ img {
 .media-scroller:hover .navigation-indicators {
   opacity: 1;
 }
+
