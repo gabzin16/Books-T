@@ -7,8 +7,10 @@ function Home() {
     
     <div>
       {/* Sessão Romance */}
+
+
       
-      <h2 className="section-title">Romance</h2>
+      <h2 className="section-title romance">Romance</h2>
 
       
       <div className="media-container">
@@ -23,8 +25,9 @@ function Home() {
             <div className="media-element">
               <img src="https://m.media-amazon.com/images/I/61TCwzWV9hL._AC_UF1000,1000_QL80_.jpg" alt="livro_3" />
             </div>
-            <div className="media-element">
-              <img  src="https://m.media-amazon.com/images/I/81u8c5lziEL._AC_UF1000,1000_QL80_.jpg" alt="livro_4" />
+            <div className="livro-button"> 
+              <a href="/Detalhamento"> <img  src="https://m.media-amazon.com/images/I/81u8c5lziEL._AC_UF1000,1000_QL80_.jpg" alt="livro_4" /></a>
+              
             </div>
             <div className="media-element">
               <img src="https://m.media-amazon.com/images/I/81hK-E1S3lL._AC_UF1000,1000_QL80_.jpg" alt="livro_5" />
@@ -113,6 +116,7 @@ function Home() {
         </div>
       </div>
 
+      
       
 
     </div>
