@@ -6,10 +6,18 @@ function Home() {
 
     
     <div>
+      <div class="content">
+        <div class="banner1">
+          {/* <img class="banner1" src="assets/banners/livro detalhamento.jpg" alt="banner1"> */}
+          <div class="text-banner">
+            <h2 class="text-CH">Lily e Atlas estão de volta, mas desta vez terão que enfrentar os desafios de um novo relacionamento, ao mesmo tempo em que lidam com seu passado e presente.
+            </h2>
+          </div>
+        </div>
+      </div>
+
       {/* Sessão Romance */}
 
-
-      
       <h2 className="section-title romance">Romance</h2>
 
       
@@ -26,7 +34,9 @@ function Home() {
               <img src="https://m.media-amazon.com/images/I/61TCwzWV9hL._AC_UF1000,1000_QL80_.jpg" alt="livro_3" />
             </div>
             <div className="livro-button"> 
-              <a href="/Detalhamento"> <img  src="https://m.media-amazon.com/images/I/81u8c5lziEL._AC_UF1000,1000_QL80_.jpg" alt="livro_4" /></a>
+              <a
+              //  href="/Detalhamento"
+              > <img  src="https://m.media-amazon.com/images/I/81u8c5lziEL._AC_UF1000,1000_QL80_.jpg" alt="livro_4" /></a>
               
             </div>
             <div className="media-element">

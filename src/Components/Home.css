@@ -2,25 +2,40 @@
 
 * {
   font-family: 'Poppins', sans-serif;
+  /* box-sizing: border-box; */
 }
 
 /* #group-1, #group-2 {
   margin-top: 180px;
 } */
 
-/* .content {
+/* .romance {
+  margin-top: 280px;
+} */
+
+.livro-button {
+  width: 70%;
+  height: auto; /* Alterado para corrigir a distorção da imagem da logo */
+  /* padding: 5px; */
+  margin-left: 20px;
+}
+
+.content {
   position: relative;
   top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0 20px;
-} */
+}
 
 img {
   width: 100%;
   height: auto; /* Alterado para corrigir a distorção da imagem da logo */
   padding: 5px;
+}
+.romance {
+  margin-top: 100px;
 }
 
 .section-title {
@@ -152,8 +167,9 @@ img {
 
   /* BANNER 1 */
   .content {
+    margin-top: 50%;
     width: 100%;
-    height: calc(90vh - 200px);
+    /* height: calc(90vh - 200px); */
     display: flex;
     flex-direction: column;
     justify-content: center;
