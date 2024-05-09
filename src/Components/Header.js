@@ -21,10 +21,10 @@ const Header = (props) => {
         <a href="/about">
           <span>Meus Livros</span>
         </a>
-        <a href="/contact">
+        <a href="/Detalhamento">
           <span>Lendo</span>
         </a>
-        <a href="/generos">
+        <a href="/Detalhes.html">
           <span>Gêneros</span>
         </a>
       </NavMenu>

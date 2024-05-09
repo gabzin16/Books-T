@@ -149,7 +149,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: linear-gradient(rgba(26, 26, 26, 0.3), rgba(26, 26, 28, 0.3)), url('/public/images/fundo\ banner\ assim\ que\ comeca.jpg');
+    background-image: linear-gradient(rgba(26, 26, 26, 0.3), rgba(26, 26, 28, 0.3)), url('/public/images/fundo_banner.jpg');
     background-size: cover;
     align-items: center;
     /* margin-top: 5px; */

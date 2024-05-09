@@ -9,7 +9,7 @@
     box-sizing: border-box;
 }
 body {
-
+    /* background-image: url(/public/images/fundo_login.jpg); */
     display: flex;
     justify-content: center;
     align-items: center;

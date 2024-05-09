@@ -3,21 +3,14 @@ import Css from "./Home.css";
 // Componente funcional Home
 function Home() {
   return (
+
+    
     <div>
-
-  <div className="content">
-      <div className="banner1">
-        <img src="/images/livro detalhamento.jpg" alt="banner1" className="banner1" />
-        <div className="text-banner">
-          <h2 className="text-CH">
-            Lily e Atlas estão de volta, mas desta vez terão que enfrentar os desafios de um novo relacionamento, ao mesmo tempo em que lidam com seu passado e presente.
-          </h2>
-        </div>
-      </div>
-    </div>
-
       {/* Sessão Romance */}
+      
       <h2 className="section-title">Romance</h2>
+
+      
       <div className="media-container">
         <div className="media-scroller">
           <div className="media-group" id="group-1">
@@ -120,6 +113,7 @@ function Home() {
         </div>
       </div>
 
+      
 
     </div>
   );
