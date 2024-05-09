@@ -22,16 +22,12 @@ function Home() {
               <img src="https://m.media-amazon.com/images/I/61TCwzWV9hL._AC_UF1000,1000_QL80_.jpg" alt="livro_3" />
             </div>
             <div className="media-element">
-              <img src="https://m.media-amazon.com/images/I/81u8c5lziEL._AC_UF1000,1000_QL80_.jpg" alt="livro_4" />
+              <img  src="https://m.media-amazon.com/images/I/81u8c5lziEL._AC_UF1000,1000_QL80_.jpg" alt="livro_4" />
             </div>
             <div className="media-element">
               <img src="https://m.media-amazon.com/images/I/81hK-E1S3lL._AC_UF1000,1000_QL80_.jpg" alt="livro_5" />
             </div>
-            <a className="next" href="#group-2" aria-label="next">
-              <svg>
-                <use href="#next" />
-              </svg>
-            </a>
+
           </div>
 
           <div className="media-group" id="group-2">
@@ -83,11 +79,7 @@ function Home() {
             <div className="media-element">
               <img src="https://m.media-amazon.com/images/I/71RpvDjl2jL._AC_UF894,1000_QL80_.jpg" alt="" />
             </div>
-            <a className="next" href="#group-4" aria-label="next">
-              <svg>
-                <use href="#next" />
-              </svg>
-            </a>
+
           </div>
 
           <div className="media-group" id="group-4">

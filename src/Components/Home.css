@@ -78,11 +78,6 @@ img {
   bottom: 0;
 }
 
-.next {
-  right: 0;
-  top: 0;
-  bottom: 0;
-}
 
 .media-group:first-child :where(.next, .previous) {
   display: flex;
