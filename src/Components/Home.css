@@ -20,13 +20,14 @@
   margin-left: 20px;
 }
 
-.content {
+.content{
   /* position: relative; */
   top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0 20px;
+  /* margin-bottom: 15px; */
 }
 
 img {
@@ -42,6 +43,8 @@ img {
   /* margin-block: 2rem 1rem; */
   font-size: 30px;
   padding-left: 60px;
+  margin-top: 40px;
+  margin-bottom: 15px;
 }
 
 .media-container {
@@ -166,24 +169,25 @@ img {
 }
 
   /* BANNER 1 */
-  .content {
+  .content-banner1 {
     padding-top: 110%;
     margin-top: 50%;
     /* width: 100%; */
-    /* height: calc(90vh - 200px); */
+    /* height: 500px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-image: linear-gradient(rgba(26, 26, 26, 0.3), rgba(26, 26, 28, 0.3)), url('/public/images/fundo_banner.jpg');
     background-size: cover;
     align-items: center;
-    /* margin-top: 5px; */
+    margin-top: 1500px;
   }
 
   .banner1 {
     display: flex;
     justify-content: space-around;
     padding: 50px;
+    height: 500px;
   }
 
   .text-banner {
@@ -217,7 +221,7 @@ img {
 
 
    /* BANNER 2 */
- .content2 {
+ .content-banner2 {
   width: 100%;
   height: calc(90vh - 200px);
   display: flex;
