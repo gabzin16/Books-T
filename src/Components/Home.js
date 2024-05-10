@@ -14,7 +14,7 @@ function Home() {
         </div>
       </div>
 
-      {/* SEÇÃO ROMANCE TESTE */}
+      {/* SEÇÃO ROMANCE */}
       <h2 className="section-title">Romance</h2>
       <div className="media-container">
         <div className="media-scroller">
@@ -28,8 +28,10 @@ function Home() {
             <div className="media-element">
             <img src="https://m.media-amazon.com/images/I/61TCwzWV9hL._AC_UF1000,1000_QL80_.jpg" alt="livro_3" />
             </div>
-            <div className="media-element">
+            <div className="livro-button">
+              <Link to="/detalhamento">
             <img src="https://m.media-amazon.com/images/I/81u8c5lziEL._AC_UF1000,1000_QL80_.jpg" alt="livro_4" />
+              </Link>
             </div>
             <div className="media-element">
               <img src="https://m.media-amazon.com/images/I/81hK-E1S3lL._AC_UF1000,1000_QL80_.jpg" alt="livro_5" />
