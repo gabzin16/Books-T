@@ -14,7 +14,7 @@
 } */
 
 .livro-button {
-  width: 70%;
+  width: 65%;
   height: auto; /* Alterado para corrigir a distorção da imagem da logo */
   /* padding: 5px; */
   margin-left: 20px;
@@ -36,6 +36,7 @@ img {
 }
 .romance {
   margin-top: 100px;
+  
 }
 
 .section-title {
@@ -183,7 +184,7 @@ img {
   .banner1 {
     display: flex;
     justify-content: space-around;
-    padding: 50px;
+    padding: 80px;
   }
 
   .text-banner {
