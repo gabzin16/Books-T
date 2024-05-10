@@ -10,6 +10,7 @@ function Home() {
       <div class="content">
         <div class="banner1">
           {/* <img class="banner1" src="assets/banners/livro detalhamento.jpg" alt="banner1"> */}
+          <img src="https://m.media-amazon.com/images/I/51jiQtSEwDL._SY445_SX342_.jpg" alt="" />
           <div class="text-banner">
             <h2 class="text-CH">Lily e Atlas estão de volta, mas desta vez terão que enfrentar os desafios de um novo relacionamento, ao mesmo tempo em que lidam com seu passado e presente.
             </h2>
