@@ -1,5 +1,9 @@
 import css from "./Detalhamento.css"
 
+// Importe as dependências necessárias, se houver
+import React from 'react';
+
+// Defina o componente Detalhamento
 function Detalhamento() {
     return(
          <div className="container">
@@ -75,7 +79,7 @@ function Detalhamento() {
                   <div className="profile">
                     {/* IMAGE */}
                     <div className="profile-img">
-                      <img src="assets/elementos/profile1.webp" alt="profile-img" />
+                      <img src="" alt="profile-img" />
                     </div>
                     <div className="name-user">
                       <strong>Gisele Bündchen</strong>
@@ -136,3 +140,6 @@ function Detalhamento() {
 
     );
 }
+
+// Exporte o componente Detalhamento como padrão
+export default Detalhamento;
