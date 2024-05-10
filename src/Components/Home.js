@@ -126,7 +126,13 @@ function Home() {
         </div>
       </div>
 
-      
+
+    {/* Banner 2 */}
+      <div className="content2">
+      <div className="banner2">
+        <h1 className="author">Autor Destaque</h1>
+      </div>
+    </div>
       
 
     </div>

@@ -213,3 +213,35 @@ img {
     padding: 50px;
     /* margin-right: 90px; */
   }
+
+
+   /* BANNER 2 */
+ .content2 {
+  width: 100%;
+  height: calc(90vh - 200px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url('/public/images/fundo_banner2.jpg');
+  background-size: cover;
+  align-items: center;
+  margin-top: 45px;
+}
+
+.banner2 {
+  position: relative; 
+  /* text-align: right; */
+}
+
+.author {
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: bold;
+  position:relative;
+  text-align: left;
+  align-items: flex-start;
+  display: block;
+  margin-bottom: 380px;
+  right: 500px;
+  margin-right: 50px;
+}
