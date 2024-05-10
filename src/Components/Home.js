@@ -133,7 +133,116 @@ function Home() {
         <h1 className="author">Autor Destaque</h1>
       </div>
     </div>
+
+          {/* Autoajuda */}
+          <h2 className="section-title">Autoajuda</h2>
+      <div className="media-container">
+        <div className="media-scroller">
+          <div className="media-group" id="group-3">
+            <div className="media-element">
+              <img src=" https://m.media-amazon.com/images/I/51Pw06uU8FL._SY445_SX342_.jpg" alt="" />
+            </div>
+            <div className="media-element">
+              <img src="https://m.media-amazon.com/images/I/41mO6JIEu8L._SY445_SX342_.jpg" alt="" />
+            </div>
+            <div className="media-element">
+              <img src="https://m.media-amazon.com/images/I/41Xc4wyyMIL._SY445_SX342_.jpg" alt="" />
+            </div>
+            <div className="media-element">
+              <img src="https://m.media-amazon.com/images/I/71X8pVrkBQS._AC_UL480_FMwebp_QL65_.jpg" alt="" />
+            </div>
+            <div className="media-element">
+              <img src="https://m.media-amazon.com/images/I/71Ywn5J6XNL._AC_UL480_FMwebp_QL65_.jpg" alt="" />
+            </div>
+
+          </div>
+
+          <div className="media-group" id="group-4">
+            <a className="previous" href="#group-3">
+              <svg>
+                <use href="#previous" />
+              </svg>
+            </a>
+            <div className="media-element">
+              <img src="https://m.media-amazon.com/images/I/41+LUvzc6WL._SY445_SX342_.jpg" alt="" />
+            </div>
+            <div className="media-element">
+              <img src="https://m.media-amazon.com/images/I/61PSo8-sNYL._SL1468_.jpg" alt="" />
+            </div>
+            <div className="media-element">
+              <img src="https://m.media-amazon.com/images/I/51jBrql3omL._SY445_SX342_.jpg" alt="" />
+            </div>
+            <div className="media-element">
+              <img src="https://m.media-amazon.com/images/I/81T+DZTbeiL._AC_UL480_FMwebp_QL65_.jpg" alt="" />
+            </div>
+            <div className="media-element">
+              <img src="https://m.media-amazon.com/images/I/417prLsHqGL._SY445_SX342_.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div className="navigation-indicators">
+          <div />
+          <div />
+        </div>
+      </div>
+
+          {/* Infantil */}
+          <h2 className="section-title">Infantil</h2>
+      <div className="media-container">
+        <div className="media-scroller">
+          <div className="media-group" id="group-3">
+            <div className="media-element">
+              <img src="https://m.media-amazon.com/images/I/51nNwwVSclL._SL1007_.jpg" alt="" />
+            </div>
+            <div className="media-element">
+              <img src="https://m.media-amazon.com/images/I/91W6uZQWTjL._SL1500_.jpg" alt="" />
+            </div>
+            <div className="media-element">
+              <img src="https://m.media-amazon.com/images/I/51fn5ioe+dL._SY445_SX342_.jpg" alt="" />
+            </div>
+            <div className="media-element">
+              <img src="https://m.media-amazon.com/images/I/91n3CQ++TAL._AC_UL480_FMwebp_QL65_.jpg" alt="" />
+            </div>
+            <div className="media-element">
+              <img src="https://m.media-amazon.com/images/I/51vosq3qOcL._SX342_SY445_.jpg" alt="" />
+            </div>
+
+          </div>
+
+          <div className="media-group" id="group-4">
+            <a className="previous" href="#group-3">
+              <svg>
+                <use href="#previous" />
+              </svg>
+            </a>
+            <div className="media-element">
+              <img src="https://m.media-amazon.com/images/I/61TJnfIa2ML._AC_UL480_FMwebp_QL65_.jpg" alt="" />
+            </div>
+            <div className="media-element">
+              <img src="https://m.media-amazon.com/images/I/51Bedmzz7QL._SY445_SX342_.jpg" alt="" />
+            </div>
+            <div className="media-element">
+              <img src="https://m.media-amazon.com/images/I/51xL8cfvhtL._SY445_SX342_.jpg" alt="" />
+            </div>
+            <div className="media-element">
+              <img src="https://m.media-amazon.com/images/I/71jZWNLhdnL._SL1200_.jpg" alt="" />
+            </div>
+            <div className="media-element">
+              <img src="https://m.media-amazon.com/images/I/41oR0ASy8bL._SX342_SY445_.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div className="navigation-indicators">
+          <div />
+          <div />
+        </div>
+      </div>
       
+      {/* Banner 3 */}
+      <div className="banner3-pp">
+
+      {/* Remove empty h3 tag, or add content if needed */}
+    </div>
 
     </div>
   );
