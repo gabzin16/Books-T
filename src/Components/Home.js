@@ -35,8 +35,7 @@ function Home() {
               <img src="https://m.media-amazon.com/images/I/61TCwzWV9hL._AC_UF1000,1000_QL80_.jpg" alt="livro_3" />
             </div>
             <div className="livro-button"> 
-              <a
-              //  href="/Detalhamento"
+              <a href="/Detalhamento"
               > <img  src="https://m.media-amazon.com/images/I/81u8c5lziEL._AC_UF1000,1000_QL80_.jpg" alt="livro_4" /></a>
               
             </div>
