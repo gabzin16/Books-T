@@ -33,7 +33,7 @@ const Header = (props) => {
       {/* <Wrap>Hi</Wrap> */}
      
       {/* Botão de Login */}
-      <Login href="/contact">Login</Login>
+      <Login href="/login">Login</Login>
     </Container>
   );
 };
