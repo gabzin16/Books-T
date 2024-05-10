@@ -1,90 +1,73 @@
-
-
 .container {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+}
+
+.livro-page{
+  /* width: 50%; */
+  box-sizing: border-box;
+  padding: 20px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+}
+
+.livro-image {
+  width: 250px;
+ /* flex-basis: 50%; */
+  object-fit: cover;
+  height: 400px;
+
+}
+
+.livro-description {
+  width: 50%;
+  /* flex-basis: 50%; */
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.livro-description h3 {
+  /* estilos para os h2s com a classe "2" dentro do div que contém as descrições do livro */
+  color: #525252ac;
+  margin-bottom: 20px;
+}
+
+
+.etiqueta {
+  color: black;
+  background-color: #3FADC2;
+  border-radius: 20px;
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.ler {
+  color: rgb(0, 0, 0);
+  background-color: #3FADC2;
+  border-radius: 120px;
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
   }
-  
-  .livro-page{
-    box-sizing: border-box;
-    padding: 20px;
-    flex-wrap: wrap;
-    max-width: 1200px;
-  }
-  
-  .livro-image {
-    width: 250px;
-    object-fit: cover;
-    height: 400px;
-    margin-left: 90px;
-  
-  }
-  
-  .livro-description {
-    width: 50%;
-    box-sizing: border-box;
-    padding: 20px;
-  }
-  
-  .livro-description h3 {
-    color: #525252ac;
-    margin-bottom: 20px;
-  }
-  
-  .etiqueta {
-    color: black;
-    background-color: #21CAD2;
-    border-radius: 20px;
-    border: none;
-    padding-left: 20px;
-    padding-right: 20px;
-    height: 28px;
-  }
-  
-  p {
-    font-weight: 500;
-    color: #414141;
-  }
-  
-  /* ESTRELAS A BAIXO DE FAVORITO */
-  .stars-icon {
-    top: 50%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    transform: translate(-1%, -2%);
-    color: #ccc;
-  }
-  
-  .checked{
-    color: #ffe500;
-  }
-  
-  /* BOTÃO LEIA */
-  .ler {
-    color: rgb(0, 0, 0);
-    background-color: #3FADC2;
-    border-radius: 120px;
-    border: none;
-    padding-left: 20px;
-    padding-right: 20px;
-    text-align: center;
-    margin-top: 10px;
-    height: 35px;
-  }
-  
-  .CH {
-    /* font-size: 25px; */
-    margin-top: -25px;
-    margin-bottom: 40px;
-    color: #555;
-  }
-  
+
   h3 {
     margin-top: 2%;
   }
-  
-  h4 {
-    margin-top: 20px;
-    font-size: 20px;
-  }
+
+h4 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.botao-ler {
+margin-top: 20px;
+text-align: center;
+}
+.ler:hover {
+  background-color: #2F939E;
+  color: black;
+  text-align: center;
+} 
