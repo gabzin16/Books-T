@@ -1,12 +1,14 @@
 import React from 'react';
+import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
+import css from "./Footer.css"
 
-function Footer() {
+const Footer = () => {
   return (
     <footer className="footer">
       <div className="container-footer">
         <div className="row">
           <div className="footer-img">
-            <img className="logo-footer" src="assets/logos/logo riverstory sem fundo.png" alt="logo-footer" />
+            <img className="logo-footer" src="/images/logo riverstory .png" alt="logo-footer" />
           </div>
 
           <div className="footer-col">
@@ -22,21 +24,20 @@ function Footer() {
           <div className="footer-col">
             <h4>Siga-nos</h4>
             <div className="social-links">
-              <a href="#"><i className="fab fa-facebook-f"></i></a>
-              <a href="#"><i className="fab fa-twitter"></i></a>
-              <a href="#"><i className="fab fa-instagram"></i></a>
-              <a href="#"><i className="fab fa-linkedin-in"></i></a>
+              <a href="#"><FaFacebookF /></a>
+              <a href="#"><FaTwitter /></a>
+              <a href="#"><FaInstagram /></a>
+              <a href="#"><FaLinkedinIn /></a>
             </div>
             <hr />
             <div className="footerBottom">
               <p>Copyright &copy;2024 <span className="designer">RIVERSTORY</span></p>
             </div>
           </div>
-
         </div>
       </div>
-    </footer>
+  </footer>
   );
-}
+};
 
 export default Footer;
